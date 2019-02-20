@@ -28,6 +28,7 @@ var reset = function () {
     guessesLeft = 9;
     chosenLetter = alphabet[Math.floor(Math.random() * alphabet.length)];
     yourGuesses = [];
+    console.log(chosenLetter);
 }
 
 
